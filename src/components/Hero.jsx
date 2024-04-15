@@ -9,11 +9,11 @@ const Hero = () => {
         AOS.init({ duration: 2000 });
     }, [])
     return (
-        <div className='grid grid-cols-1 sm:grid-cols-3 gap-8 md:h-[70vh] mx-auto py-8 bg-black' data-aos="fade-up">
+        <div className='grid grid-cols-1 sm:grid-cols-3 gap-8 md:h-[70vh] mx-auto py-8 bg-black'>
             <div className='col-span-1 my-auto mx-auto w-[300px] h-auto lg:w-[350px] '>
                 <img className='rounded-2xl' src={mypic} alt="my image" />
             </div>
-            <div className='col-span-2  px-5 mt-11'>
+            <div className='col-span-2  px-5 mt-11' data-aos="fade-up">
 
                 <h1 className='primary-color text-4xl sm:text-5xl lg:text:8xl font-extrabold'>
                     <span className="text-white primay-color">
@@ -21,7 +21,7 @@ const Hero = () => {
                     </span><br />
                     <TypeAnimation
                         sequence={[
-                            "frontend Dev",
+                            "Backend Dev",
                             1000,
                             "MERN Stack Dev",
                             1000,
