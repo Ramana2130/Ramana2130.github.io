@@ -13,7 +13,7 @@ const Navbar = () => {
       <ul className="hidden md:flex">
         <li className="p-5">
           {" "}
-          <a href="about">About</a>{" "}
+          <a href="#">About</a>{" "}
         </li>
         <li className="p-5">
           {" "}

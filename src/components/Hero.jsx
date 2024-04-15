@@ -1,9 +1,15 @@
 import React from 'react'
 import { TypeAnimation } from 'react-type-animation'
 import mypic from '../assets/mypic.png'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+import { useEffect } from 'react'
 const Hero = () => {
+    useEffect(() => {
+        AOS.init({ duration: 2000 });
+    }, [])
     return (
-        <div className='grid grid-cols-1 sm:grid-cols-3 gap-8 md:h-[70vh] mx-auto py-8 bg-black'>
+        <div className='grid grid-cols-1 sm:grid-cols-3 gap-8 md:h-[70vh] mx-auto py-8 bg-black' data-aos="fade-up">
             <div className='col-span-1 my-auto mx-auto w-[300px] h-auto lg:w-[350px] '>
                 <img className='rounded-2xl' src={mypic} alt="my image" />
             </div>
