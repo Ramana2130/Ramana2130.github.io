@@ -11,7 +11,7 @@ const Hero = () => {
     return (
         <div className='grid grid-cols-1 sm:grid-cols-3 gap-8 md:h-[70vh] mx-auto py-8 bg-black'>
             <div className='col-span-1 my-auto mx-auto w-[300px] h-auto lg:w-[350px] '>
-                <img className='rounded-2xl' src={mypic} alt="my image" />
+                <img className='rounded-2xl' src={mypic} alt="my image" loading='eager' />
             </div>
             <div className='col-span-2  px-5 mt-11' data-aos="fade-up">
 
