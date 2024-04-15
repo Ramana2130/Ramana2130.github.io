@@ -1,6 +1,6 @@
 import React from 'react'
 import { TypeAnimation } from 'react-type-animation'
-import mypic from '../assets/mypic.png'
+import mypic from '../assets/mypho.png'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 import { useEffect } from 'react'
